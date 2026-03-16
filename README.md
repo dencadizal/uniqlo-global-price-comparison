@@ -21,7 +21,7 @@ Philippine Peso (PHP) will be the common currency, but there are plans to make i
 - Tracks price changes over time to spot seasonal sales
 - Presents everything through a Power BI dashboard and a static website
 
-### Tech Stack
+### Tech stack
 | Layer | Technology |
 |---|---|
 | Ingestion | Microsoft Fabric Notebooks (Python) |
@@ -39,7 +39,7 @@ The pipeline follows a medallion architecture (Bronze → Silver → Gold):
 2. Silver: Cleaned and standardized product tables with consistent schema
 3. Gold: Final comparison tables with price differences and winner flags
 
-### Project Status
+### Project status
 | Phase | Description | Status |
 |---|---|---|
 | 0 | Manual Excel recon (PH vs HK) | **In progress** |
@@ -51,7 +51,7 @@ The pipeline follows a medallion architecture (Bronze → Silver → Gold):
 | 6 | Power BI dashboard (PBIP) | ⬚ Not started |
 | 7 | GitHub Pages website | ⬚ Not started |
 
-### Dashboard Preview
+### Dashboard preview
 *Screenshots coming soon after Phase 6. Or a sample planned dashboard after Phase 4.*
 
 Planned report pages:
@@ -62,11 +62,11 @@ Planned report pages:
 - Price trends: Historical price tracking over time
 
 ### How to use
-Once the GitHub Pages site is live, visit: https://dencadizal.github.io/uniqlo-global-price-comparisons.
+Once the GitHub Pages site is live, visit: https://dencadizal.github.io/uniqlo-global-price-comparison.
 
 The final end goal is to have no Power BI license needed - the website will provide the full comparison for anyone.
 
-### Planned Repository Structure
+### Planned repository structure
 ```
 uniqlo-global-price-comparisons/
 ├── README.md
